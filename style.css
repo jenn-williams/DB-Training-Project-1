@@ -7,17 +7,18 @@ html, head, body{
     padding:0;
     border:none;
 }
-
 html{
     background-color: #808080;
     padding: 20px;
     border:none;
+    position: relative;
+    min-height: 100%;
 }
 
-#headerlogo {
-    background-color: #D3D3D3;
-    margin:0;
-    padding:0;
+body{
+    padding-top: 100px;
+    background-color: #808080;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -38,30 +39,16 @@ h2 {
     
 }
 
-#headerlogo h1{
-    font-family: 'Helvetica Nue', sans-serif;
-    color: black;
-    text-align: center;
-    letter-spacing: 4px;
-    font-weight: bold;
-    font-size: 60px;
-    padding-top: 20px;
-    padding-bottom: 0;
-    margin: 10px;
-}
-
-
-#headerlogo p {
+p {
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-weight: 100;
-    padding-bottom: 20px;
+    font-weight: 200;
 }
+
 
 #navbar{
     padding: 20px;
     height: 30px;
-    background-color: #D3D3D3;
+   
     list-style-type:none;
 }
 
@@ -75,7 +62,7 @@ h2 {
     padding: 5px 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color:white;
+    color:#808080;
     text-decoration: none;
 }
 #navbar li ul {
@@ -114,84 +101,40 @@ h2 {
 }
 
 #navbar li:hover ul li a:hover {
-    background-color:#808080;
+    background-color:white;
 }
 
-#content {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
+.r_header{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-#sidebar {
-   padding: 10px;
-   float: right;
-   width: 250px;
-   background-color:#696969;
+.r_content{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-
-#maincontent{
-   
-   padding: 10px;
-   margin-right: 300px;
-   background-color:#696969;
-   margin-bottom: 20px;
-   
+.gray{
+    background-color: #808080;
+    padding: 0px;
 }
 
-#footer {
-    background-color:#D3D3D3;
-    padding: 20px;
+.btn{
+    color:#808080;
+    margin:10px;
+    padding:10px;
 }
 
-#photo {
-    float:left;
-    width:100px;
-    height:112px;
-    clear:both;
-    margin-right: 10px;
+.bottom{
+    padding:30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
 }
 
-.subtitles{
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-weight: bold;
-
+.container-fluid .text-muted {
+  margin: 20px 0;
 }
-   
-}
-
-#footer .subtitles {
-    text-align:left;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-}
-
-#sidebar p {
-    margin-left: 0px;
-    display: block;
-}
-
-
-a.mainlink{
-    background-color:#2D882D;
-    color: white;
-    margin-left: 280px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-decoration:none;
-    padding: 10px;
-    
-}
-
-
-
-
-
-
-
-
