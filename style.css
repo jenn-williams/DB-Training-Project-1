@@ -112,8 +112,8 @@ p {
 
 /*content section*/
 .r_content{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 /*space between sections*/
@@ -122,6 +122,10 @@ p {
     padding: 0px;
 }
 
+.gray_header{
+    background-color: #808080;
+    padding: 15px;
+}
 /*button class*/
 .btn{
     color:#808080;
@@ -165,14 +169,45 @@ p {
     padding-bottom: 220px;
 }
 
+#thumbnail{
+    width:100px;
+}
+
+#events_pic{
+    background-image: url('radio3.jpg');
+    background-size: cover;
+    padding-bottom: 300px;
+}
+#stories_pic{
+    background-image: url('radio1.jpg');
+    padding-bottom: 300px;
+    background-size: cover;
+}
+
+#about_pic{
+    background-image: url('radio5.jpg');
+    background-size: cover;
+   padding-bottom: 100px;
+}
+
+#apply_pic{
+    background-image: url('radio4.jpg');
+    background-size: cover;
+   padding-bottom: 300px;
+}
+
+.icon {
+    width:30px;
+    height:30px;
+    border:0
+}
 /*for articles*/
 .article{
     background-color: #D3D3D3;
-    
     text-align: center;
 }
 
-.col-sm-12 p{
+.col-sm-12 p, .db_form{
     padding:10px;
     margin:10px;
 }
@@ -184,4 +219,9 @@ p {
 .text{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.subtitle{
+    background-color:white;
+    opacity: .85;
+    padding:20px;
 }
